@@ -10,13 +10,13 @@ const client = new Client({
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "VA", lid: "201131036123@lid", jid: "201131036123@s.whatsapp.net" },
+    { name: "ZAEM", lid: "201131036123@lid", jid: "201131036123@s.whatsapp.net" },
   // Owner 2
-    { name: "emam", lid: "201131036123@lid", jid: "201131036123@s.whatsapp.net" },
+    { name: "ZAEM", lid: "201131036123@lid", jid: "201131036123@s.whatsapp.net" },
   // Owner 3
-    { name: "Sukuna", jid: "201033024135@s.whatsapp.net", lid: "201131036123@lid" },
+    { name: "ZAEM", jid: "201131036123@s.whatsapp.net", lid: "201131036123@lid" },
   // Owner 4 
-   { name: "عمورتي", jid: "201131036123@s.whatsapp.net", lid: "201131036123@lid" }
+   { name: "ZAEM", jid: "201131036123@s.whatsapp.net", lid: "201131036123@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -33,8 +33,8 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "♡ 𝙋𝙊𝙈𝙉𝙄 🎪 〈", 
-  nameChannel: "𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️", 
+  nameBot: "♡ 𝑍𝐴𝐸𝑀〈", 
+  nameChannel:"A&Z STORE "
   idChannel: "120363225356834044@newsletter",
   urls: {
     repo: "https://github.com/deveni0/Pomni-AI",
